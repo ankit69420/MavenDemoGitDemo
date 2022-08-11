@@ -2,14 +2,9 @@ package com.lti.demos;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.Test;
 
-class AssumptionsTest {
-
-	package com.lti.demos;
-
-	import org.junit.jupiter.api.Assumptions;
-	import org.junit.jupiter.api.Test;
 
 	class AssumptionsTest {
 
@@ -28,7 +23,7 @@ class AssumptionsTest {
 
 
 
-		@Test
+				@Test
 			    void testOnDev()
 			    {
 			        System.setProperty("ENV", "DEV");
@@ -50,4 +45,4 @@ class AssumptionsTest {
 
 	}
 
-}
+
